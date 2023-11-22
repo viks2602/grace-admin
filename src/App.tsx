@@ -1,6 +1,11 @@
+import { Box } from "@mui/material"
+import LoginSignUp from "./pages/auth/LoginSignUp"
+
 const App = () => {
   return (
-    <div>App</div>
+    <Box>
+      <LoginSignUp/>
+    </Box>
   )
 }
 
