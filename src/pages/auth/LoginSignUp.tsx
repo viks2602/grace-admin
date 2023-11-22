@@ -1,6 +1,9 @@
 import { Box, Button, Checkbox, CssBaseline, Divider, FormControlLabel, Grid, Link, TextField, Typography } from '@mui/material';
-import loginImg from '../../assets/login.png'
+import loginImg from '../../assets/login.png';
+import { useNavigate } from 'react-router-dom';
+
 const LoginSignUp = () => {
+  const navigate = useNavigate()
   return (
     <Box
       sx={{
@@ -89,6 +92,7 @@ const LoginSignUp = () => {
                     background: "#00405f",
                   }
                 }}
+                onClick={()=>navigate('/v3')}
               >
                 Sign In
               </Button>
