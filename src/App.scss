@@ -35,10 +35,7 @@ html {
   }
 }
 
-// .react-icon {
-//   font-size: 1.5rem;
-//   color: #fff;
-// };
+
 
 .sidebar-listing-menu {
   .menuItem,
@@ -66,30 +63,6 @@ html {
   border-color: rgb(236, 236, 236) !important;
 }
 
-// .MuiDataGrid-root {
-//   .MuiDataGrid-row {
-//     outline: 1px solid #ecececf9;
-//     // border: 1px solid red;
-//   }
-// }
-
-.input_file [type="file"] {
-  /* Style the color of the message that says 'No file chosen' */
-    color: #878787;
-  }
-
-.input_file [type="file"]::-webkit-file-upload-button {
-background: #60668b;
-border: 1px solid #60668b;
-border-radius: 4px;
-color: #fff;
-cursor: pointer;
-font-size: 12px;
-outline: none;
-padding: 10px 20px;
-text-transform: uppercase;
-transition: all 1s ease;
-  }
 
 .MuiFormHelperText-root {
   color: #E9394F !important
