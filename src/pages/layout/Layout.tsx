@@ -116,7 +116,7 @@ export default function Layout() {
           <Box height={'60px'} display='flex'  alignItems='center' pl={1}>
             <img src={graceLogo} width='100%' height='70%'/>
           </Box>
-            <Avatar alt="user" src={''} sx={{mr:2, cursor:'pointer'}} onClick={handleOpen}>{'user first later'}</Avatar>
+            <Avatar alt="user" src={''} sx={{mr:2, cursor:'pointer'}} onClick={handleOpen}>{'VP'}</Avatar>
           </Box>
       </AppBar>
       <Drawer variant="permanent" open={open} onMouseEnter={handleDrawerOpen} onMouseLeave={handleDrawerClose}>
@@ -247,22 +247,21 @@ export default function Layout() {
               }}
             >
               <Box sx={{ display: "flex" }} mb={1}>
-                <Avatar alt="Remy Sharp" src={''}>{'user first latter'}</Avatar>
+                <Avatar alt="Remy Sharp" src={''}>{'VP'}</Avatar>
                 <Stack ml={2}>
                   <Typography fontWeight='bold'>
-                  {'FirstName' + ' ' + 'MiddleName' + ' ' + 'LastName'}
+                    {/* here we show user name */}
+                  {'Vikas' + ' ' + 'Balu' + ' ' + 'Patil'}
                   </Typography>
                   <Typography variant='h6'>
-                    {''}
+                    {'Super Admin'}
                   </Typography>
                 </Stack>
               </Box>
               <Divider />
               <Stack spacing={0.5}>
-                <Typography fontWeight={"bold"} variant={"h5"}> Role: </Typography>
-                <Typography > Email:  </Typography>
-                <Typography> Role:  </Typography>
-                <Typography> Location:  </Typography>
+                <Typography fontWeight={"bold"} variant={"h5"}> Role: Super Admin </Typography>
+                <Typography > Email: viks.0226@gmail.com </Typography>
               </Stack>
 
               <Divider sx={{ marginBottom: 1 }} />

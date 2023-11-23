@@ -46,8 +46,6 @@ const LoginSignUp = () => {
                     pl:5,
                     pt:3,
                     pb:2
-          
-
                   }}
                 >
                   Login
@@ -92,7 +90,7 @@ const LoginSignUp = () => {
                     background: "#00405f",
                   }
                 }}
-                onClick={()=>navigate('/v3')}
+                onClick={()=>navigate('/v3/dashboard')}
               >
                 Sign In
               </Button>
