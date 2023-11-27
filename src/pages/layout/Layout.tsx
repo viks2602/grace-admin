@@ -106,6 +106,7 @@ export default function Layout() {
 
   function logoutHandler() {
     sessionStorage.clear();
+    localStorage.clear();
     navigate('/');
   }
 
